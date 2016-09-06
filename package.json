@@ -1,0 +1,26 @@
+{
+  "name": "xml-socket",
+  "version": "1.0.0",
+  "description": "A wrapper over Node Socket to listen for incoming XML requests",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqassiddiqi/node-xml-socket.git"
+  },
+  "keywords": [
+    "xml",
+    "socket"
+  ],
+  "author": "Waqas Hussain Siddiqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waqassiddiqi/node-xml-socket/issues"
+  },
+  "homepage": "https://github.com/waqassiddiqi/node-xml-socket#readme",
+  "dependencies": {
+        "xml2js": "0.2.3"
+   }
+}
