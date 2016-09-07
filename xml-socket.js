@@ -54,7 +54,7 @@ XmlSocket.prototype = {
     }
 };
 
-var delegates = [ 'connect', 'on', 'end' ];
+var delegates = [ 'connect', 'on', 'end', 'write' ];
 delegates.forEach(function(method) {
     XmlSocket.prototype[method] = function() {
         this._socket[method].apply(this._socket, arguments);
